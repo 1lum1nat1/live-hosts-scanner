@@ -1,5 +1,4 @@
 #!/bin/bash
-#live hosts scanner
 
 ip=`sudo route -n | grep 255 | cut -d' ' -f1`
 ip2=${ip::-2}
